@@ -1,1 +1,9 @@
-# Estudo-rvore-AVL
+# Estudo-arvore-AVL
+
+Está zipado o código em ".c" juntamente com os arquivos ".txt" necessários para leitura para execução correta do programa. Eles estão localizados na pasta "projeto", na qual o arquivo "projeto.rar" é onde está o código principal do programa. Nesta pasta está zipado o arquivo ".txt" de cada país que será lido. Você terá de extrair todos os arquivos e os manter na mesma pasta em que se encontra o código principal.
+
+Foram enviados arquivos que possuem uma média de 11 milhões de dados cada e um total de 10 arquivos de 10 países diferentes. Isso para um teste mais rápido para comprovação de funcionalidades do programa. Já que, com os dados atingindo casa númericas mais altas, a leitura inicial do programa (momento de inicialização, antes do usuário ver algo ou mexer em algo) demora um tempo considerável(Recomendo usar a flag "-mcmodel=large" na compilação do arquivo, caso for fazer a compilação).
+
+Existem dois métodos de pesquisa de pessoa no programa, em ambos você pesquisa pelo registro único dessa pessoa (número do id referente ao país da pessoa). O primeiro método é a pesquisa sabendo o país que a pessoa pertence, na qual vc escolhe o país e depois informa o número de id que busca. O segundo método você vai buscar o número de id da pessoa "pelo mundo" (pelos países inclusos), e o programa vai retornar as pessoas que batem com aquele número de id e informa o país que aquela pessoa pertence.
+
+Estará sendo enviado também o código que gera as pessoas aleatórias de cada país, em um outro arquivo zipado chamado "gerador". Neste arquivo compactado está o código em ".c" e os arquivos ".txt" necessários para a execução correta do programa. O número de repetição para cada corrida de dados estará em 1M para cada país (cada pessoa tem uma média de 11 informações diferentes, assim cada país tem 11 milhões de dados nessa corrida).
